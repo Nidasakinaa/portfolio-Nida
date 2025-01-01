@@ -1,0 +1,100 @@
+html {
+    scroll-behavior: smooth;
+}
+.transition-all {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Earth Tone Colors */
+:root {
+    --earth-tone-dark: #3E4A3B; /* Dark Green-Brown */
+    --earth-tone-medium: #7F8C4E; /* Olive Green */
+    --earth-tone-light: #D0E0D8; /* Light Beige */
+    --earth-tone-accent: #A57C40; /* Warm Brown */
+    --earth-tone-light-text: #F5F1F0; /* Off White */
+}
+
+/* Navbar */
+nav {
+    background-color: var(--earth-tone-dark);
+    color: var(--earth-tone-light-text);
+}
+
+nav a {
+    color: var(--earth-tone-light-text);
+}
+
+nav a:hover {
+    color: var(--earth-tone-accent);
+}
+
+nav .donate-button {
+    background-color: var(--earth-tone-accent);
+    color: var(--earth-tone-dark);
+}
+
+nav .donate-button:hover {
+    background-color: var(--earth-tone-accent-dark);
+}
+
+/* About Section */
+#about {
+    background-color: var(--earth-tone-light);
+    color: var(--earth-tone-dark);
+}
+
+#about h1 {
+    color: var(--earth-tone-dark);
+}
+
+#about p {
+    color: var(--earth-tone-medium);
+}
+
+/* Projects Section */
+#projects {
+    background-color: var(--earth-tone-light);
+    color: var(--earth-tone-dark-text);
+}
+
+#projects h1 {
+    color: var(--earth-tone-dark);
+}
+
+#projects p {
+    color: var(--earth-tone-dark);
+}
+
+/* Footer Section */
+footer {
+    background-color: var(--earth-tone-dark);
+    color: var(--earth-tone-light-text);
+}
+
+footer h1, footer h2 {
+    color: var(--earth-tone-light-text);
+}
+
+footer a {
+    color: var(--earth-tone-light-text);
+}
+
+footer a:hover {
+    color: var(--earth-tone-accent);
+}
+
+/* Gaya dasar untuk ikon */
+.social-icon {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Efek hover untuk ikon */
+.social-icon:hover {
+    transform: scale(1.1); /* Membesarkan ikon saat dihover */
+    opacity: 0.8; /* Mengurangi opacity saat dihover */
+}
+
+/* Warna ikon saat dihover */
+.social-icon:hover img {
+    filter: brightness(0.8); /* Mengurangi kecerahan gambar saat dihover */
+}

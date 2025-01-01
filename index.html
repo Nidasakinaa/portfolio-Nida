@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-brown-100 pt-20">
+    <!-- Navbar -->
+    <nav class="bg-earth-tone-dark shadow-md p-4 fixed w-full top-0 z-10 transition-all">
+        <div class="container mx-auto flex justify-between items-center bg-earth-tone-dark">
+            <h1 class="text-2xl font-bold text-earth-tone-light">Nidasakinaa</h1>
+            <ul class="flex space-x-4">
+                <li><a href="#about" class="hover:text-earth-tone-accent transition-all text-earth-tone-light">Profile</a></li>
+                <li><a href="#projects" class="hover:text-earth-tone-accent transition-all text-earth-tone-light">Projects</a></li>
+                <li><a href="https://wa.me/083174603834" class="hover:text-earth-tone-accent transition-all text-earth-tone-light">Contact</a></li>
+                <li><a href="#donate" class="bg-earth-tone-accent text-earth-tone-dark px-4 py-2 rounded-md hover:bg-earth-tone-accent-dark transition-all">Donate</a></li>
+            </ul>
+            <a href="#donate" class="bg-yellow-500 text-brown-700 px-4 py-2 rounded-md hover:bg-yellow-600 transition-all">Donate</a>            </ul>
+        </div>
+    </nav>
+
+
+    <!-- About Section -->
+    <section id="about" class="container mx-auto my-12 p-6 bg-earth-tone-light rounded-md shadow-md transition-all">
+        <h1 class="text-4xl font-extrabold mb-6 text-center text-earth-tone-dark transition-all">About Me</h1>
+        <div class="flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 text-center md:text-left">
+                <p class="text-earth-tone-dark text-4xl font-bold transition-all">
+                    Nida Sakina Aulia
+                </p>
+                <p class="text-earth-tone-medium text-lg mt-4 leading-relaxed transition-all">
+                    Hi there! I'm Nida Sakina Aulia, a passionate student with a deep interest in web development and technology. 
+                    Take a look at my portfolio to see the exciting projects I've been working on and the skills I've honed.
+                </p>
+            </div>
+            <div class="md:w-1/2 flex justify-center md:justify-end mt-6 md:mt-0">
+                <img src="img/nida.png" alt="Profile Photo" class="w-64 h-64 rounded-full shadow-lg transition-all">
+            </div>
+        </div>
+    </section>
+
+ 
+    <!-- Projects Section -->
+    <section id="projects" class="container mx-auto my-12 p-6 bg-earth-tone-light rounded-md shadow-md transition-all">
+        <div class="container mx-auto">
+            <h1 class="text-4xl font-extrabold mb-6 text-center text-earth-tone-light transition-all">Projects</h1>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white p-4 shadow-md rounded-md transition-all">
+                    <img src="img/hospital.png" alt="Admin Manage Hospital Patient Data" class="mb-4 rounded-md transition-all">
+                    <h4 class="font-bold text-earth-tone-dark transition-all">Admin Manage Hospital Patient Data</h4>
+                    <p class="text-earth-tone-dark transition-all">A web application designed for hospital administrators to efficiently manage patient data, including patient records, appointments, and medical history.</p>
+                </div>
+                <div class="bg-white p-4 shadow-md rounded-md transition-all">
+                    <img src="https://via.placeholder.com/300x200" alt="Aplikasi Pemesanan Alat Catering" class="mb-4 rounded-md transition-all">
+                    <h4 class="font-bold text-earth-tone-dark transition-all">Aplikasi Pemesanan Alat Catering</h4>
+                    <p class="text-earth-tone-dark transition-all">An application that allows users to order catering equipment easily, manage bookings, and track orders in real-time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-8 transition-all">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+            <div>
+                <h1 class="text-2xl font-bold transition-all">My Portfolio</h1>
+                <p class="transition-all">Hello! I'm Nida Sakina Aulia, a dedicated student with a keen interest in web development and technology.</p>
+            </div>
+            <div>
+                <h1 class="text-xl font-bold transition-all">Contact</h1>
+                <p><a href="mailto:nidasakinaaulia@gmail.com" class="hover:text-blue-500 transition-all">nidasakinaaulia@gmail.com</a></p>
+                <p><a href="https://wa.me/6283174603834" class="hover:text-blue-500 transition-all">+62 83174603834</a></p>
+            </div>
+            <div>
+                <h2 class="text-xl font-bold transition-all">Find Me!</h2>
+                <a href="https://instagram.com/Nidaasknna_" class="social-icon text-gray-700 text-2xl hover:text-white transition-all">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://github.com/Nidasakinaa" class="social-icon text-gray-700 text-2xl hover:text-white ml-4 transition-all">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+        <p class="mt-8 transition-all">&copy; 2024 My Portfolio. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
